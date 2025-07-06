@@ -1,5 +1,8 @@
 <template>
-	<HeroCenteredOverlay />
+	<div class="overflow-hidden">
+		<HeroCenteredOverlay />
+		<HerosHeroLeftOverlay />
+	</div>
 </template>
 
 <script setup>
