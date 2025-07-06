@@ -2,6 +2,7 @@
 	<div class="overflow-hidden">
 		<HeroCenteredOverlay />
 		<HerosHeroLeftOverlay />
+		<SectionsCloseUpSection />
 	</div>
 </template>
 
