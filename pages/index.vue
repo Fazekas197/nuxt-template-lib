@@ -6,5 +6,5 @@
 </template>
 
 <script setup>
-	import HeroCenteredOverlay from "~/components/heros/HeroCenteredOverlay.vue";
+	import HeroCenteredOverlay from "~/components/Heros/HeroCenteredOverlay.vue";
 </script>
