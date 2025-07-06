@@ -1,3 +1,34 @@
+<!--
+  Component: HeroCenteredOverlay
+
+  Description:
+  A fullscreen hero section with a background image, dark overlay,
+  centered headline and subheadline, and two call-to-action buttons.
+  Ideal for home pages, landing pages, or promotional banners where
+  the focus is on branding and conversion.
+
+  Props:
+  - img: { src: string, alt: string }
+      The background image and alt text. Defaults to a placeholder.
+  - tagline: string
+      A short line of text above the main title. Defaults to generic filler.
+  - title: string
+      The main heading text. Large and impactful by default.
+  - CTA1: { title: string, link: string }
+      Primary button with solid style. Default: "Learn More"
+  - CTA2: { title: string, link: string }
+      Secondary button with outline style. Default: "Contact Us"
+
+  Example usage:
+  <HeroCenteredOverlay
+    :img="{ src: '/hero.jpg', alt: 'Scenic view' }"
+    tagline="Welcome to our platform"
+    title="Achieve More with Less"
+    :CTA1="{ title: 'Get Started', link: '/start' }"
+    :CTA2="{ title: 'Learn More', link: '/about' }"
+  />
+-->
+
 <template>
 	<main class="relative h-dvh w-dvw">
 		<!-- Background -->
@@ -39,16 +70,12 @@
 
 	const props = withDefaults(
 		defineProps<{
-			img: {
-				src: string;
-				alt: string;
-			};
-			tagline: string;
-			title: string;
-			CTA1: CTA;
-			CTA2: CTA;
+			img?: { src: string; alt: string };
+			tagline?: string;
+			title?: string;
+			CTA1?: CTA;
+			CTA2?: CTA;
 		}>(),
-
 		{
 			img: () => ({
 				src: "/placeholder.png",

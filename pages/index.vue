@@ -1,7 +1,7 @@
 <template>
-	<Hero />
+	<HeroCenteredOverlay />
 </template>
 
 <script setup>
-	import Hero from "~/components/heros/Hero.vue";
+	import HeroCenteredOverlay from "~/components/heros/HeroCenteredOverlay.vue";
 </script>
