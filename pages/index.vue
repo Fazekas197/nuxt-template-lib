@@ -3,6 +3,7 @@
 		<HeroCenteredOverlay />
 		<HerosHeroLeftOverlay />
 		<SectionsCloseUpSection />
+		<FootersThreeColsFooter />
 	</div>
 </template>
 
