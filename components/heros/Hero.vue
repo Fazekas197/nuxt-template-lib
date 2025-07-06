@@ -1,0 +1,69 @@
+<template>
+	<main class="relative h-dvh w-dvw">
+		<!-- Background -->
+		<NuxtImg
+			:src="img.src"
+			:alt="img.alt"
+			class="absolute inset-0 h-full w-full object-cover"
+		/>
+		<div class="absolute inset-0 bg-black/35" />
+
+		<!-- Overlay Content -->
+		<section
+			class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4 lg:px-20 gap-6"
+		>
+			<header>
+				<p class="text-lg md:text-2xl font-semibold">{{ tagline }}</p>
+				<h1 class="text-4xl md:text-6xl lg:text-8xl 2xl:text-[10rem]">
+					{{ title }}
+				</h1>
+			</header>
+
+			<div class="flex gap-4 lg:gap-9">
+				<UButton :to="CTA1.link" class="text-lg">{{
+					CTA1.title
+				}}</UButton>
+				<UButton :to="CTA2.link" variant="outline" class="text-lg">
+					{{ CTA2.title }}
+				</UButton>
+			</div>
+		</section>
+	</main>
+</template>
+
+<script setup lang="ts">
+	type CTA = {
+		title: string;
+		link: string;
+	};
+
+	const props = withDefaults(
+		defineProps<{
+			img: {
+				src: string;
+				alt: string;
+			};
+			tagline: string;
+			title: string;
+			CTA1: CTA;
+			CTA2: CTA;
+		}>(),
+
+		{
+			img: () => ({
+				src: "/placeholder.png",
+				alt: "Default background image",
+			}),
+			tagline: "Lorem ipsum dolor sit amet",
+			title: "Praesent vehicula dapibus neque",
+			CTA1: () => ({
+				title: "Learn More",
+				link: "/",
+			}),
+			CTA2: () => ({
+				title: "Contact Us",
+				link: "/",
+			}),
+		}
+	);
+</script>

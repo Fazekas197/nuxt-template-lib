@@ -1,6 +1,7 @@
 <template>
-	<div>
-		<h1 class="text-7xl">test</h1>
-		<UButton>Button</UButton>
-	</div>
+	<Hero />
 </template>
+
+<script setup>
+	import Hero from "~/components/heros/Hero.vue";
+</script>
