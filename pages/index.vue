@@ -4,6 +4,7 @@
 		<HerosHeroLeftOverlay />
 		<SectionsCloseUpSection />
 		<FootersThreeColsFooter />
+		<SectionsFAQSection />
 	</div>
 </template>
 
