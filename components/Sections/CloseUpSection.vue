@@ -39,7 +39,12 @@
 	<section
 		class="px-6 py-8 space-y-6 lg:flex lg:gap-x-10 lg:justify-center lg:px-60 lg:py-16 2xl:w-3/4 mx-auto"
 	>
-		<NuxtImg :src="img.src" :alt="img.alt" class="lg:w-1/2 object-cover" />
+		<NuxtImg
+			:src="img.src"
+			:alt="img.alt"
+			format="webp"
+			class="lg:w-1/2 object-cover"
+		/>
 
 		<div class="space-y-4 lg:w-1/2">
 			<h2 ref="textRef" class="mb-5 lg:text-6xl text-5xl leading-none">

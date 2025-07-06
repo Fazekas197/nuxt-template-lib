@@ -38,6 +38,7 @@
 	<main class="relative h-dvh w-dvw">
 		<!-- Background -->
 		<NuxtImg
+			format="webp"
 			:src="img.src"
 			:alt="img.alt"
 			class="absolute inset-0 h-full w-full object-cover"
