@@ -10,6 +10,7 @@
 		<CardsVerticalCard />
 		<BannersPromotionBanner />
 		<TestimonialsAuthorRatingTestitomial />
+		<SectionsGridSection />
 	</div>
 </template>
 
