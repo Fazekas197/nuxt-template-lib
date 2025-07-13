@@ -34,13 +34,24 @@
 
 <template>
 	<div
-		class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-[20%] bg-white shadow-2xl rounded-b-3xl space-y-4"
+		class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-[20%] bg-white shadow-2xl rounded-3xl flex flex-col overflow-hidden h-full"
 	>
-		<NuxtImg :src="img.src" :alt="img.alt" class="rounded-t-3xl w-full" />
-		<div class="px-4 py-3 space-y-4">
+		<NuxtImg
+			:src="img.src"
+			:alt="img.alt"
+			class="w-full h-48 object-cover"
+		/>
+
+		<div class="flex flex-col flex-1 px-4 py-5 space-y-4">
 			<h4 class="text-3xl text-center">{{ title }}</h4>
-			<p>{{ text }}</p>
-			<UButton :to="cta.link" class="w-full justify-center">
+			<p class="text-lg flex-1">{{ text }}</p>
+
+			<!-- Button pinned to the bottom -->
+			<UButton
+				v-if="cta"
+				:to="cta.link"
+				class="w-full justify-center mt-auto"
+			>
 				{{ cta.title }}
 			</UButton>
 		</div>
