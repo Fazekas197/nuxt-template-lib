@@ -7,6 +7,7 @@
 		<SectionsCloseUpSection />
 		<FootersThreeColsFooter />
 		<SectionsFAQSection />
+		<CardsVerticalCard />
 	</div>
 </template>
 
