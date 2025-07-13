@@ -9,6 +9,7 @@
 		<SectionsFAQSection />
 		<CardsVerticalCard />
 		<BannersPromotionBanner />
+		<TestimonialsAuthorRatingTestitomial />
 	</div>
 </template>
 
