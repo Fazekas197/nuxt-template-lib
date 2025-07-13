@@ -8,6 +8,7 @@
 		<FootersThreeColsFooter />
 		<SectionsFAQSection />
 		<CardsVerticalCard />
+		<BannersPromotionBanner />
 	</div>
 </template>
 
