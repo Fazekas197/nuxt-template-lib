@@ -126,7 +126,7 @@
 
 	const props = withDefaults(
 		defineProps<{
-			links: Link[];
+			links?: Link[];
 		}>(),
 		{
 			links: () => [
