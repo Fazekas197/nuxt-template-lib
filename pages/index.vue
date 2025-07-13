@@ -1,5 +1,6 @@
 <template>
 	<div class="overflow-hidden">
+		<HeadersClasicHeader />
 		<HeroCenteredOverlay />
 		<HerosHeroLeftOverlay />
 		<HerosSmallHeroOverlay />
