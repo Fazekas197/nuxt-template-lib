@@ -17,10 +17,10 @@
       Default: "Praesent vehicula dapibus neque"
   - tagline: string
       Supporting text shown below the title. Default: "Lorem ipsum dolor sit amet"
-  - CTA1: { title: string, link: string }
+  - cta1: { title: string, link: string }
       Primary call-to-action button. Rendered as a filled button.
       Default: { title: "Learn More", link: "/" }
-  - CTA2: { title: string, link: string }
+  - cta2: { title: string, link: string }
       Secondary call-to-action button. Rendered as an outlined button.
       Default: { title: "Contact Us", link: "/" }
 
@@ -29,8 +29,8 @@
     :img="{ src: '/images/hero.jpg', alt: 'Modern building at dusk' }"
     title="Welcome to Our Studio"
     tagline="Creative solutions, elegant results"
-    :CTA1="{ title: 'Get Started', link: '/start' }"
-    :CTA2="{ title: 'View Portfolio', link: '/portfolio' }"
+    :cta1="{ title: 'Get Started', link: '/start' }"
+    :cta2="{ title: 'View Portfolio', link: '/portfolio' }"
   />
 -->
 
@@ -59,15 +59,15 @@
 			</header>
 
 			<div class="space-x-4 lg:space-x-5">
-				<UButton :to="CTA1.link" class="text-lg lg:text-xl">{{
-					CTA1.title
+				<UButton :to="cta1.link" class="text-lg lg:text-xl">{{
+					cta1.title
 				}}</UButton>
 				<UButton
-					:to="CTA2.link"
+					:to="cta2.link"
 					variant="outline"
 					class="text-lg lg:text-xl"
 				>
-					{{ CTA2.title }}
+					{{ cta2.title }}
 				</UButton>
 			</div>
 		</section>
@@ -85,8 +85,8 @@
 			img?: { src: string; alt: string };
 			tagline?: string;
 			title?: string;
-			CTA1?: CTA;
-			CTA2?: CTA;
+			cta1?: CTA;
+			cta2?: CTA;
 		}>(),
 		{
 			img: () => ({
@@ -95,11 +95,11 @@
 			}),
 			tagline: "Lorem ipsum dolor sit amet",
 			title: "Praesent vehicula dapibus neque",
-			CTA1: () => ({
+			cta1: () => ({
 				title: "Learn More",
 				link: "/",
 			}),
-			CTA2: () => ({
+			cta2: () => ({
 				title: "Contact Us",
 				link: "/",
 			}),

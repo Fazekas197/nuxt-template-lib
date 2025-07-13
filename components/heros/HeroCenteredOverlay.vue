@@ -14,9 +14,9 @@
       A short line of text above the main title. Defaults to generic filler.
   - title: string
       The main heading text. Large and impactful by default.
-  - CTA1: { title: string, link: string }
+  - cta1: { title: string, link: string }
       Primary button with solid style. Default: "Learn More"
-  - CTA2: { title: string, link: string }
+  - cta2: { title: string, link: string }
       Secondary button with outline style. Default: "Contact Us"
 
   Example usage:
@@ -24,8 +24,8 @@
     :img="{ src: '/hero.jpg', alt: 'Scenic view' }"
     tagline="Welcome to our platform"
     title="Achieve More with Less"
-    :CTA1="{ title: 'Get Started', link: '/start' }"
-    :CTA2="{ title: 'Learn More', link: '/about' }"
+    :cta1="{ title: 'Get Started', link: '/start' }"
+    :cta2="{ title: 'Learn More', link: '/about' }"
   />
 -->
 
@@ -52,11 +52,11 @@
 			</header>
 
 			<div class="flex gap-4 lg:gap-9">
-				<UButton :to="CTA1.link" class="text-lg">{{
-					CTA1.title
+				<UButton :to="cta1.link" class="text-lg">{{
+					cta1.title
 				}}</UButton>
-				<UButton :to="CTA2.link" variant="outline" class="text-lg">
-					{{ CTA2.title }}
+				<UButton :to="cta2.link" variant="outline" class="text-lg">
+					{{ cta2.title }}
 				</UButton>
 			</div>
 		</section>
@@ -74,8 +74,8 @@
 			img?: { src: string; alt: string };
 			tagline?: string;
 			title?: string;
-			CTA1?: CTA;
-			CTA2?: CTA;
+			cta1?: CTA;
+			cta2?: CTA;
 		}>(),
 		{
 			img: () => ({
@@ -84,11 +84,11 @@
 			}),
 			tagline: "Lorem ipsum dolor sit amet",
 			title: "Praesent vehicula dapibus neque",
-			CTA1: () => ({
+			cta1: () => ({
 				title: "Learn More",
 				link: "/",
 			}),
-			CTA2: () => ({
+			cta2: () => ({
 				title: "Contact Us",
 				link: "/",
 			}),
