@@ -11,6 +11,7 @@
 		<BannersPromotionBanner />
 		<TestimonialsAuthorRatingTestitomial />
 		<SectionsGridSection />
+		<CardsBlogSummaryCard />
 	</div>
 </template>
 
