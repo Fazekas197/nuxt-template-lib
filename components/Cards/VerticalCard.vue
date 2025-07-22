@@ -39,7 +39,7 @@
 		<NuxtImg
 			:src="img.src"
 			:alt="img.alt"
-			class="w-full h-48 object-cover"
+			class="w-full h-72 object-cover"
 		/>
 
 		<div class="flex flex-col flex-1 px-4 py-5 space-y-4">
@@ -77,7 +77,7 @@
 				alt: "Default background image",
 			}),
 			title: "Lorem ipsum",
-			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum a justo in porta. Aenean pretium placerat neque at condimentum. Praesent pharetra libero sit amet condimentum luctus. Cras at erat a erat cursus mollis ac eget arcu. Aenean quis auctor neque. Pellentesque rutrum augue et diam lacinia faucibus luctus sed lacus. Sed lobortis a eros vel interdum. Integer faucibus at erat id rhoncus. Donec luctus felis nec sapien hendrerit dignissim.",
+			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum a justo in porta. Aenean pretium placerat neque at condimentum. Praesent pharetra libero sit amet condimentum luctus. Cras at erat a erat cursus mollis ac eget arcu. Aenean quis auctor neque. Pellentesque rutrum augue et diam lacinia faucibus luctus sed lacus.",
 			cta: () => ({
 				title: "Descoperă",
 				link: "/",
