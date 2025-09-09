@@ -33,7 +33,7 @@
 	>
 		<div v-for="elem in elems" class="flex flex-col items-center w-fit">
 			<UIcon :name="elem.icon" class="size-10 lg:size-15" />
-			<p class="text-xl lg:text-2xl">{{ elem.text }}</p>
+			<TypographyTextXl>{{ elem.text }}</TypographyTextXl>
 		</div>
 	</div>
 </template>

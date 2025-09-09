@@ -47,10 +47,8 @@
 		<section
 			class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-12 lg:px-20 gap-3 lg:gap-6"
 		>
-			<h1 class="text-5xl lg:text-7xl">
-				{{ title }}
-			</h1>
-			<p class="text-xl lg:text-2xl">{{ promotion }}</p>
+			<TypographySectionTitle>{{ title }}</TypographySectionTitle>
+			<TypographyTextXl>{{ promotion }}</TypographyTextXl>
 		</section>
 	</main>
 </template>
