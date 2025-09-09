@@ -50,9 +50,7 @@
 			class="absolute inset-0 items-center text-center lg:items-start lg:text-start flex flex-col justify-center text-white px-4 lg:px-20 gap-6 lg:w-3/5"
 		>
 			<header class="space-y-2 lg:space-y-4">
-				<h1 class="text-4xl md:text-6xl xl:text-8xl">
-					{{ title }}
-				</h1>
+				<TypographyHeroTitle>{{ title }}</TypographyHeroTitle>
 				<TypographyHeroSubtitle>
 					{{ tagline }}
 				</TypographyHeroSubtitle>

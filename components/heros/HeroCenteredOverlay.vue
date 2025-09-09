@@ -48,9 +48,9 @@
 				<TypographyHeroSubtitle>
 					{{ tagline }}
 				</TypographyHeroSubtitle>
-				<h1 class="text-4xl md:text-6xl lg:text-8xl 2xl:text-[10rem]">
-					{{ title }}
-				</h1>
+				<TypographyHeroTitle class="2xl:text-[10rem]">{{
+					title
+				}}</TypographyHeroTitle>
 			</header>
 
 			<div class="flex gap-4 lg:gap-9">
