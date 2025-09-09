@@ -43,7 +43,7 @@
 		<div
 			class="relative px-6 lg:px-[120px] 2xl:px-60 pb-[120px] space-y-6 text-white"
 		>
-			<TypographyHeroTitleSmall>{{ title }}</TypographyHeroTitleSmall>
+			<TypographyHeroTitleV2>{{ title }}</TypographyHeroTitleV2>
 			<TypographyTextBase class="font-semibold leading-snug w-2/5">{{
 				text
 			}}</TypographyTextBase>
@@ -52,6 +52,8 @@
 </template>
 
 <script setup lang="ts">
+	import { TypographyHeroTitleV2 } from "#components";
+
 	const props = withDefaults(
 		defineProps<{
 			img?: { src: string; alt: string };
