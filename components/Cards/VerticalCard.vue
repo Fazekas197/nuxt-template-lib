@@ -43,12 +43,13 @@
 		/>
 
 		<div class="flex flex-col flex-1 px-4 py-5 space-y-4">
-			<h4 class="text-3xl text-center">{{ title }}</h4>
-			<p class="text-lg flex-1">{{ text }}</p>
+			<h4 class="text-3xl lg:text-4xl text-center">{{ title }}</h4>
+			<p class="lg:text-lg text-base flex-1">{{ text }}</p>
 
 			<!-- Button pinned to the bottom -->
 			<UButton
 				v-if="cta"
+				size="lg"
 				:to="cta.link"
 				class="w-full justify-center mt-auto"
 			>

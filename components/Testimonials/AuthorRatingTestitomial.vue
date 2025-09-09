@@ -45,7 +45,7 @@
 			/>
 			<h4 class="text-3xl lg:text-4xl">{{ author }}</h4>
 		</div>
-		<p class="text-lg lg:text-xl">{{ testimonial }}</p>
+		<p class="lg:text-lg text-base">{{ testimonial }}</p>
 	</div>
 </template>
 

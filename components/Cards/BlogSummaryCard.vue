@@ -9,10 +9,10 @@
 		/>
 
 		<div class="space-y-3 xl:space-y-4">
-			<h2 class="text-2xl xl:text-3xl leading-snug tracking-tight">
+			<h2 class="text-3xl lg:text-4xl leading-snug tracking-tight">
 				{{ title }}
 			</h2>
-			<p class="text-base xl:text-lg leading-relaxed">
+			<p class="lg:text-lg text-base">
 				{{ text }}
 			</p>
 			<UButton v-if="cta" :to="cta.link" class="self-start mt-2">
