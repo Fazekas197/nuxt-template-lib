@@ -51,9 +51,9 @@
 				<!-- Title & Location -->
 				<div class="font-secondary space-y-3">
 					<p class="text-lg lg:text-xl font-semibold">{{ title }}</p>
-					<p class="lg:text-lg text-base leading-snug">
-						{{ location }}
-					</p>
+					<TypographyBaseTxt class="leading-snug">{{
+						location
+					}}</TypographyBaseTxt>
 				</div>
 
 				<!-- Social Buttons -->
@@ -81,9 +81,9 @@
 						class="flex gap-x-2 items-center"
 					>
 						<UIcon :name="contact.icon" class="size-7" />
-						<p class="lg:text-lg text-base leading-snug">
-							{{ contact.text }}
-						</p>
+						<TypographyBaseTxt class="leading-snug">{{
+							contact.text
+						}}</TypographyBaseTxt>
 					</div>
 				</div>
 			</div>
