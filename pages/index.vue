@@ -3,16 +3,14 @@
 		<NuxtLink to="/heros">Hero Components</NuxtLink>
 		<NuxtLink to="/banners">Banner Components</NuxtLink>
 		<NuxtLink to="/cards">Cards Components</NuxtLink>
+		<NuxtLink to="/sections">Sections Components</NuxtLink>
 	</div>
 
 	<div class="overflow-hidden">
 		<HeadersClasicHeader />
-		<SectionsCloseUpSection />
 		<FootersThreeColsFooter />
-		<SectionsFAQSection />
 
 		<TestimonialsAuthorRatingTestitomial />
-		<SectionsGridSection />
 	</div>
 </template>
 
