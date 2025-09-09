@@ -1,4 +1,6 @@
 <template>
+	<NuxtLink to="/heros">Hero Components</NuxtLink>
+
 	<div class="overflow-hidden">
 		<HeadersClasicHeader />
 		<HeroCenteredOverlay />
