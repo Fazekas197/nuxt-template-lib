@@ -44,9 +44,9 @@
 			class="relative px-6 lg:px-[120px] 2xl:px-60 pb-[120px] space-y-6 text-white"
 		>
 			<h1 class="text-6xl lg:text-9xl leading-none">{{ title }}</h1>
-			<TypographyBaseTxt class="font-semibold leading-snug w-2/5">{{
+			<TypographyTextBase class="font-semibold leading-snug w-2/5">{{
 				text
-			}}</TypographyBaseTxt>
+			}}</TypographyTextBase>
 		</div>
 	</main>
 </template>

@@ -46,7 +46,7 @@
 			<TypographySubTitle>{{ author }}</TypographySubTitle>
 		</div>
 
-		<TypographyBaseTxt>{{ testimonial }}</TypographyBaseTxt>
+		<TypographyTextBase>{{ testimonial }}</TypographyTextBase>
 	</div>
 </template>
 

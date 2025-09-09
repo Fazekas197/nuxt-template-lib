@@ -13,7 +13,7 @@
 				title
 			}}</TypographySubTitle>
 
-			<TypographyBaseTxt>{{ text }}</TypographyBaseTxt>
+			<TypographyTextBase>{{ text }}</TypographyTextBase>
 
 			<UButton v-if="cta" :to="cta.link" class="self-start mt-2">
 				{{ cta.title }}
@@ -23,6 +23,8 @@
 </template>
 
 <script setup lang="ts">
+	import { TypographyTextBase } from "#components";
+
 	type CTA = {
 		title: string;
 		link: string;

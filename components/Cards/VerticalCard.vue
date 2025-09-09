@@ -47,7 +47,7 @@
 				title
 			}}</TypographySubTitle>
 
-			<TypographyBaseTxt class="flex-1">{{ text }}</TypographyBaseTxt>
+			<TypographyTextBase class="flex-1">{{ text }}</TypographyTextBase>
 
 			<!-- Button pinned to the bottom -->
 			<UButton

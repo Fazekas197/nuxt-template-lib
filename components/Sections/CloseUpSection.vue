@@ -51,9 +51,9 @@
 				title
 			}}</TypographySectionTitle>
 
-			<TypographyBaseTxt class="leading-snug">{{
+			<TypographyTextBase class="leading-snug">{{
 				text
-			}}</TypographyBaseTxt>
+			}}</TypographyTextBase>
 
 			<slot />
 		</div>
