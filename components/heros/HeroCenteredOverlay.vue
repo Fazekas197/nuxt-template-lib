@@ -45,9 +45,9 @@
 			class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4 lg:px-20 gap-6"
 		>
 			<header>
-				<p class="text-lg md:text-3xl xl:text-4xl font-semibold">
+				<TypographyHeroSubtitle>
 					{{ tagline }}
-				</p>
+				</TypographyHeroSubtitle>
 				<h1 class="text-4xl md:text-6xl lg:text-8xl 2xl:text-[10rem]">
 					{{ title }}
 				</h1>

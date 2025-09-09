@@ -53,9 +53,9 @@
 				<h1 class="text-4xl md:text-6xl xl:text-8xl">
 					{{ title }}
 				</h1>
-				<p class="text-lg md:text-3xl xl:text-4xl font-semibold">
+				<TypographyHeroSubtitle>
 					{{ tagline }}
-				</p>
+				</TypographyHeroSubtitle>
 			</header>
 
 			<div class="space-x-4 lg:space-x-5">
