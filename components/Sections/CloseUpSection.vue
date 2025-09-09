@@ -50,9 +50,11 @@
 			<h2 ref="textRef" class="mb-5 lg:text-6xl text-5xl leading-none">
 				{{ title }}
 			</h2>
-			<p class="lg:text-lg text-base leading-snug">
-				{{ text }}
-			</p>
+
+			<TypographyBaseTxt class="leading-snug">{{
+				text
+			}}</TypographyBaseTxt>
+
 			<slot />
 		</div>
 	</section>
