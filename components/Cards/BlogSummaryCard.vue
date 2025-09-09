@@ -12,9 +12,9 @@
 			<h2 class="text-3xl lg:text-4xl leading-snug tracking-tight">
 				{{ title }}
 			</h2>
-			<p class="lg:text-lg text-base">
-				{{ text }}
-			</p>
+
+			<TypographyBaseTxt>{{ text }}</TypographyBaseTxt>
+
 			<UButton v-if="cta" :to="cta.link" class="self-start mt-2">
 				{{ cta.title }}
 			</UButton>
