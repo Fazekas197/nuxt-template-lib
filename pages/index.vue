@@ -1,16 +1,15 @@
 <template>
-	<NuxtLink to="/heros">Hero Components</NuxtLink>
+	<div class="space-x-4">
+		<NuxtLink to="/heros">Hero Components</NuxtLink>
+		<NuxtLink to="/banners">Banner Components</NuxtLink>
+	</div>
 
 	<div class="overflow-hidden">
 		<HeadersClasicHeader />
-		<HeroCenteredOverlay />
-		<HerosHeroLeftOverlay />
-		<HerosSmallHeroOverlay />
 		<SectionsCloseUpSection />
 		<FootersThreeColsFooter />
 		<SectionsFAQSection />
 		<CardsVerticalCard />
-		<BannersPromotionBanner />
 		<TestimonialsAuthorRatingTestitomial />
 		<SectionsGridSection />
 		<CardsBlogSummaryCard />
