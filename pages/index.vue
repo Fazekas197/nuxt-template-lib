@@ -2,6 +2,7 @@
 	<div class="space-x-4">
 		<NuxtLink to="/heros">Hero Components</NuxtLink>
 		<NuxtLink to="/banners">Banner Components</NuxtLink>
+		<NuxtLink to="/cards">Cards Components</NuxtLink>
 	</div>
 
 	<div class="overflow-hidden">
@@ -9,10 +10,9 @@
 		<SectionsCloseUpSection />
 		<FootersThreeColsFooter />
 		<SectionsFAQSection />
-		<CardsVerticalCard />
+
 		<TestimonialsAuthorRatingTestitomial />
 		<SectionsGridSection />
-		<CardsBlogSummaryCard />
 	</div>
 </template>
 
