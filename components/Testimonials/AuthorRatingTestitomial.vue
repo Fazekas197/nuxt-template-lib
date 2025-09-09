@@ -43,7 +43,7 @@
 				v-for="item in Array(rating).keys()"
 				class="size-10 lg:size-15 bg-yellow-300"
 			/>
-			<h4 class="text-3xl lg:text-4xl">{{ author }}</h4>
+			<TypographySubTitle>{{ author }}</TypographySubTitle>
 		</div>
 
 		<TypographyBaseTxt>{{ testimonial }}</TypographyBaseTxt>

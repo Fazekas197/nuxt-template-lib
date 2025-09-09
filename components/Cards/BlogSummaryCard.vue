@@ -9,9 +9,9 @@
 		/>
 
 		<div class="space-y-3 xl:space-y-4">
-			<h2 class="text-3xl lg:text-4xl leading-snug tracking-tight">
-				{{ title }}
-			</h2>
+			<TypographySubTitle class="leading-snug tracking-tight">{{
+				title
+			}}</TypographySubTitle>
 
 			<TypographyBaseTxt>{{ text }}</TypographyBaseTxt>
 

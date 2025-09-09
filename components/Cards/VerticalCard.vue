@@ -43,7 +43,9 @@
 		/>
 
 		<div class="flex flex-col flex-1 px-4 py-5 space-y-4">
-			<h4 class="text-3xl lg:text-4xl text-center">{{ title }}</h4>
+			<TypographySubTitle class="text-center">{{
+				title
+			}}</TypographySubTitle>
 
 			<TypographyBaseTxt class="flex-1">{{ text }}</TypographyBaseTxt>
 
