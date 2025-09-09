@@ -47,9 +47,9 @@
 		/>
 
 		<div class="space-y-4 lg:w-1/2">
-			<h2 ref="textRef" class="mb-5 lg:text-6xl text-5xl leading-none">
-				{{ title }}
-			</h2>
+			<TypographySectionTitle class="mb-5">{{
+				title
+			}}</TypographySectionTitle>
 
 			<TypographyBaseTxt class="leading-snug">{{
 				text
