@@ -4,13 +4,12 @@
 		<NuxtLink to="/banners">Banner Components</NuxtLink>
 		<NuxtLink to="/cards">Cards Components</NuxtLink>
 		<NuxtLink to="/sections">Sections Components</NuxtLink>
+		<NuxtLink to="/testimonials">Testimonials Components</NuxtLink>
 	</div>
 
 	<div class="overflow-hidden">
 		<HeadersClasicHeader />
 		<FootersThreeColsFooter />
-
-		<TestimonialsAuthorRatingTestitomial />
 	</div>
 </template>
 
