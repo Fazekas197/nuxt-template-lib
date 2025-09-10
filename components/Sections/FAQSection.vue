@@ -31,9 +31,7 @@
 		id="FAQ"
 		class="px-6 py-8 md:px-[120px] xl:px-60 lg:py-16 space-y-6 2xl:w-3/4 mx-auto"
 	>
-		<TypographySectionTitle class="text-center md:text-start">{{
-			title
-		}}</TypographySectionTitle>
+		<TypographySectionTitle>{{ title }}</TypographySectionTitle>
 
 		<LazyUAccordion
 			hydrate-on-interaction
