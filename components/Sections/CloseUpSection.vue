@@ -37,16 +37,16 @@
 
 <template>
 	<section
-		class="px-6 py-8 space-y-6 lg:flex lg:gap-x-10 lg:justify-center lg:px-60 lg:py-16 2xl:w-3/4 mx-auto"
+		class="px-6 py-8 space-y-6 md:flex md:gap-x-10 lg:px-60 md:py-16 2xl:w-3/4 mx-auto"
 	>
 		<NuxtImg
 			:src="img.src"
 			:alt="img.alt"
 			format="webp"
-			class="lg:w-1/2 object-cover"
+			class="md:w-1/2 object-cover"
 		/>
 
-		<div class="space-y-4 lg:w-1/2">
+		<div class="space-y-4 md:w-1/2">
 			<TypographySectionTitle class="mb-5">{{
 				title
 			}}</TypographySectionTitle>
