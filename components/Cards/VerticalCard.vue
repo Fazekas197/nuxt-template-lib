@@ -34,7 +34,7 @@
 
 <template>
 	<div
-		class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-[20%] bg-white shadow-2xl rounded-3xl flex flex-col overflow-hidden h-full"
+		class="w-full max-w-sm sm:max-w-md md:max-w-md xl:max-w-md bg-white shadow-2xl rounded-3xl flex flex-col overflow-hidden h-full"
 	>
 		<NuxtImg
 			:src="img.src"
