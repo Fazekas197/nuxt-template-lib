@@ -1,2 +1,23 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+/* Theme example */
+@theme {
+	--font-sans: "Baskervville", sans-serif;
+	--font-secondary: "Montserrat";
+
+	--text-title: 8rem;
+
+	--color-lightWhite: #fefefe;
+	--color-white: #f3f1f1;
+	--color-beige: #d7e2db;
+	--color-green: #0c261d;
+	--color-darkGreen: #091d16;
+	--color-darkerGreen: #040d0a;
+}
+
+:root {
+	--ui-primary: var(--color-green);
+	--ui-text: var(--color-darkGreen);
+	--ui-bg: var(--color-beige);
+}
