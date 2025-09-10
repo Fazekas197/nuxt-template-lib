@@ -29,7 +29,7 @@
 
 <template>
 	<div
-		class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-12 lg:gap-24 w-fit mx-auto"
+		class="grid grid-cols-2 md:grid-cols-3 md:grid-rows-2 gap-12 md:gap-16 lg:gap-24 w-fit mx-auto"
 	>
 		<div v-for="elem in elems" class="flex flex-col items-center w-fit">
 			<UIcon :name="elem.icon" class="size-10 lg:size-15" />
