@@ -50,7 +50,9 @@
 			<div class="lg:space-y-6 space-y-4">
 				<!-- Title & Location -->
 				<div class="font-secondary space-y-3">
-					<p class="text-lg lg:text-xl font-semibold">{{ title }}</p>
+					<TypographyTextXl class="font-semibold">
+						{{ title }}
+					</TypographyTextXl>
 					<TypographyTextBase class="leading-snug">{{
 						location
 					}}</TypographyTextBase>
@@ -73,7 +75,9 @@
 
 			<!-- CONTACT -->
 			<div class="font-secondary space-y-3">
-				<p class="text-xl font-semibold">Contact</p>
+				<TypographyTextXl class="font-semibold">
+					Contact
+				</TypographyTextXl>
 				<div class="space-y-2">
 					<div
 						v-for="(contact, index) in contacts"
@@ -90,8 +94,10 @@
 
 			<!-- LINKS -->
 			<div class="font-secondary space-y-3">
-				<p class="text-xl font-semibold">Alte Linkuri</p>
-				<div class="space-y-2">
+				<TypographyTextXl class="font-semibold">
+					Alte Linkuri
+				</TypographyTextXl>
+				<div class="space-y-1">
 					<NuxtLink
 						v-for="link in links"
 						:key="link.link"
@@ -106,7 +112,7 @@
 
 		<!-- CREDITS -->
 		<div
-			class="bg-black text-white text-center py-3 px-10 text-xs lg:text-base font-secondary"
+			class="bg-black text-white text-center py-3 px-10 text-xs font-secondary"
 		>
 			<p>{{ credit }}</p>
 		</div>
