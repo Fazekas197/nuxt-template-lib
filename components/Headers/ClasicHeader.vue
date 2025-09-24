@@ -90,7 +90,7 @@
 				v-for="link in links"
 				active-class="underline decoration-wavy underline-offset-4"
 				:to="link.link"
-				class="text-xl"
+				class="text-xl font-secondary"
 				@click="navOpen = false"
 				>{{ link.text }}</NuxtLink
 			>
@@ -106,7 +106,7 @@
 				v-for="link in links"
 				:to="link.link"
 				active-class="underline decoration-wavy underline-offset-4"
-				class="hover:text-beige transition decoration-2"
+				class="hover:text-beige transition decoration-2 font-secondary"
 				>{{ link.text }}</NuxtLink
 			>
 			<slot name="links">
