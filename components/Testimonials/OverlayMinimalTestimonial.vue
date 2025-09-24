@@ -1,3 +1,38 @@
+<!--
+  Component: OverlayMinimalTestimonial
+
+  Description:
+  A full-width overlay testimonial section with a background image, 
+  centered testimonial carousel, and semi-transparent dark overlay. 
+  Ideal for landing pages, hero sections, or any section showcasing 
+  client feedback.
+
+  Props:
+  - img: { src: string; alt: string }
+      Background image object containing:
+      - src: URL of the background image. Defaults to "/placeholder.png".
+      - alt: Alternative text for the image. Defaults to "Default background image".
+
+  - testimonials: string[]
+      Array of testimonial texts to display in a carousel.
+      Defaults to three placeholder testimonials:
+        [
+          "Praesent vehicula dapibus neque dolor sit amet",
+          "Praesent vehicula dapibus neque dolor sit amet",
+          "Praesent vehicula dapibus neque dolor sit amet"
+        ]
+
+  Example usage:
+  <OverlayMinimalTestimonial
+    :img="{ src: '/images/client-bg.webp', alt: 'Clients background' }"
+    :testimonials="[
+      'Serviciu excelent, recomand cu încredere!',
+      'Experiență profesională și plăcută.',
+      'Recomand tuturor, comunicare și suport impecabil.'
+    ]"
+  />
+-->
+
 <template>
 	<main
 		class="relative group w-full bg-cover bg-bottom h-[60vh] flex items-end"
