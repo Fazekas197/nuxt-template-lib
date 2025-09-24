@@ -20,6 +20,7 @@
 		<SectionsFAQSection />
 		<CardsVerticalCard />
 		<BannersPromotionBanner />
+		<BannersMinimalBanner />
 		<TestimonialsAuthorRatingTestitomial />
 		<SectionsGridSection />
 		<CardsBlogSummaryCard />
