@@ -24,5 +24,6 @@
 		<TestimonialsAuthorRatingTestitomial />
 		<SectionsGridSection />
 		<CardsBlogSummaryCard />
+		<SectionsHalfImageSection />
 	</div>
 </template>

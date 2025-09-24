@@ -7,5 +7,7 @@
 		<SectionsFAQSection />
 		<h1 class="text-5xl p-10">GridSection</h1>
 		<SectionsGridSection />
+		<h1 class="text-5xl p-10">HalfImageSection</h1>
+		<SectionsHalfImageSection />
 	</div>
 </template>
