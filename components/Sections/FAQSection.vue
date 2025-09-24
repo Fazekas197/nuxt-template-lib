@@ -64,7 +64,7 @@
 	const accordionUI = {
 		root: "space-y-6",
 		item: "border-2 border-l-0 border-r-0 border-[#B4BCB9] last:border-b-2",
-		label: "text-lg lg:text-xl font-secondary font-normal",
-		body: "font-secondary !text-base lg:!text-lg",
+		label: "text-3xl lg:text-4xl font-normal",
+		body: "lg:!text-lg !text-base font-secondary",
 	};
 </script>
