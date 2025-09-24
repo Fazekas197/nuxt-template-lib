@@ -7,5 +7,7 @@
 		<HerosHeroLeftOverlay />
 		<h1 class="text-5xl p-10">HeroSmallHeroOverlay</h1>
 		<HerosSmallHeroOverlay />
+		<h1 class="text-5xl p-10">HeroBottomRightOverlay</h1>
+		<HerosHeroBottomRightOverlay />
 	</div>
 </template>

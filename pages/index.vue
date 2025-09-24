@@ -14,6 +14,7 @@
 		<HerosHeroCenteredOverlay />
 		<HerosHeroLeftOverlay />
 		<HerosSmallHeroOverlay />
+		<HerosHeroBottomRightOverlay />
 		<SectionsCloseUpSection />
 		<FootersThreeColsFooter />
 		<SectionsFAQSection />
