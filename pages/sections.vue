@@ -9,5 +9,7 @@
 		<SectionsGridSection />
 		<h1 class="text-5xl p-10">HalfImageSection</h1>
 		<SectionsHalfImageSection />
+		<h1 class="text-5xl p-10">ProductPromoSection</h1>
+		<SectionsProductPromoSection />
 	</div>
 </template>

@@ -26,5 +26,6 @@
 		<CardsBlogSummaryCard />
 		<SectionsHalfImageSection />
 		<CardsOverlayCard />
+		<SectionsProductPromoSection />
 	</div>
 </template>
