@@ -5,5 +5,7 @@
 		<CardsVerticalCard />
 		<h1 class="text-5xl p-10">BlogSummaryCard</h1>
 		<CardsBlogSummaryCard />
+		<h1 class="text-5xl p-10">CardsOverlayCard</h1>
+		<CardsOverlayCard />
 	</div>
 </template>
