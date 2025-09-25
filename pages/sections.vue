@@ -13,5 +13,7 @@
 		<SectionsProductPromoSection />
 		<h1 class="text-5xl p-10">ThreeImageSection</h1>
 		<SectionsThreeImageSection />
+		<h1 class="text-5xl p-10">PartenersSection</h1>
+		<SectionsPartenersSection />
 	</div>
 </template>

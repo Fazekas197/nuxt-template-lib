@@ -28,5 +28,6 @@
 		<CardsOverlayCard />
 		<SectionsProductPromoSection />
 		<SectionsThreeImageSection />
+		<SectionsPartenersSection />
 	</div>
 </template>
